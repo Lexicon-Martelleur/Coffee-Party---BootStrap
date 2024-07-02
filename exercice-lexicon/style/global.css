@@ -1,9 +1,11 @@
 :root {
     --BG_LIGHT: #F2EEE3;
+    --BG_LIGHT_T: rgb(242, 238, 227, 0.9);
     --BG_MEDIUM: #BAAF92;
     --BG_DARK: #785E4D;
     --BG_DARK_T: rgb(121, 95, 78, 0.3);
     --BG_ACCENT: #FF8426;
+    --BG_ACCENT_T: rgb(255, 132, 38, 0.4);
 
     --TEXT_PRIMARY: #FFF;
     --TEXT_PRIMARY_LIGHT: #F2EEE3;

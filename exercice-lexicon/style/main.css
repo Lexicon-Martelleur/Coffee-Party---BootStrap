@@ -4,8 +4,33 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-color: var(--BG_LIGHT);
+    overflow: hidden;
 }
 
 .__nav-container {
-    background-color: var(--BG_LIGHT);
+    background-color: var(--BG_ACCENT);
+}
+
+main {
+    height: 100%;
+    padding: 1rem;
+    background-color: var(--BG_LIGHT_T);
+    overflow-y: auto;
+}
+
+.__product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 1rem;
+}
+
+.test {
+    width: 240px;
+    height: 200px;
+    border: 3px solid var(--BG_LIGHT);
+    background: var(--BG_ACCENT_T);;
+    overflow: scroll;
 }
