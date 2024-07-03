@@ -13,41 +13,82 @@
 </head>
 
 <body class="__page-container __image">
-    <nav class="navbar navbar-expand __nav-container">
-        <div class="container-fluid">
-            <h1 class="d-none d-sm-block">
-                <a class="navbar-brand fs-2" href="./index.html">
-                    Coffee Party ☕
-                </a>
-            </h1>
-            <h1 class="d-block d-sm-none">
-                <a class="navbar-brand fs-2" href="./index.html">
-                    ☕
-                </a>
-            </h1>
-        </div>
-        <div class="pe-1 pe-sm-5">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link fs-4" href="./index.html">
-                        Home
+    <header class="__header">
+        <nav class="d-sm-none navbar navbar-expand">
+            <div class="container-fluid">
+                <h1 class="d-block d-sm-none">
+                    <a class="navbar-brand fs-4" href="./index.html">
+                        ☕ Party
                     </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link fs-4" href="./about.html">
-                        About
+                </h1>
+            </div>
+            
+            <div class="pe-1 pe-sm-5">
+                <ul class="navbar-nav">
+                    <li class="nav-item d-flex align-items-center mx-1">
+                        <a class="nav-link fs-4 d-flex"
+                            href="./index.html">
+                            <img src="./icons/home.svg"
+                                alt="Home"
+                                width="24"
+                                height="24">
+                        </a>
+                    </li>
+                    <li class="nav-item d-flex align-items-center mx-1">
+                        <a class="nav-link active fs-4 d-flex"
+                            href="./products.html">
+                            <img
+                                src="./icons/products.svg"
+                                alt="Products"
+                                width="24"
+                                height="24">
+                        </a>
+                    </li>
+                    <li class="nav-item d-flex align-items-center mx-1">
+                        <a class="nav-link fs-4 d-flex"
+                            href="./about.html">
+                            <img
+                                src="./icons/about.svg"
+                                alt="About"
+                                width="24"
+                                height="24">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <nav class="d-none d-sm-flex navbar navbar-expand __nav-container">
+            <div class="d-none d-sm-block container-fluid">
+                <h1 class="d-none d-sm-block">
+                    <a class="navbar-brand fs-2" href="./index.html">
+                        Coffee Party ☕
                     </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active fs-4" href="./products.html">
-                        Products
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <main>
-        <section class="d-flex flex-column py-4">
+                </h1>
+            </div>
+            <div class="pe-1 pe-sm-5">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link fs-4" href="./index.html">
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-4" href="./about.html">
+                            About
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active fs-4" href="./products.html">
+                            Products
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="__main">
+        <section id="coffee-machines"
+            class="d-flex flex-column py-4">
             <h2 class="text-center">Coffee Machines</h2>
             <section class="d-flex flex-wrap justify-content-center">
                 <div class="m-4 p-2 __product-item">
@@ -137,11 +178,12 @@
             </section>
         </section>
 
-        <section class="d-flex flex-column py-4">
+        <section>
             <section>
-                <h2 class="text-center">Coffee Party Section</h2>
-
-                <section class="d-flex flex-wrap justify-content-center">
+                <h2 class="text-center">Coffee Party</h2>
+                
+                <section id="coffee-party-business"
+                    class="d-flex flex-wrap justify-content-center">
                     <h4 class="text-center">Business Products</h4>
                     <section class="d-flex flex-wrap justify-content-center">
                         <div class="m-4 p-2 __product-item">
@@ -254,8 +296,9 @@
                         </div>
                     </section>
 
-                    <section class="d-flex flex-wrap justify-content-center">
-                        <h4 class="text-center">Private Products</h4>
+                    <section id="coffee-party-private"
+                        class="d-flex flex-wrap justify-content-center">
+                        <h4 class="text-center">Private</h4>
                         <section class="d-flex flex-wrap justify-content-center">
                             <div class="m-4 p-2 __product-item">
                                 <h5>Product &ltNAME&gt</h5>
@@ -382,7 +425,19 @@
                 </section>
             </section>
         </section>
-    </main>
+    </main>  
+    <footer class="__footer">
+        <div class="d-flex justify-content-center">
+            <img src="./icons/arrow_up.svg"
+                alt="Footer"
+                width="24"
+                height="24">
+        </div>
+        <div class="d-flex justify-content-center">
+            <p class="px-2">&copy; <span id="2024">2024-07-01</span> Coffee Party</p>
+            <p class="px-2">Webmaster: <a href="mailto:coffee@coffee.com">coffee@coffee.com</a></p>
+        </div>
+    </footer>
 </body>
 
 </html>

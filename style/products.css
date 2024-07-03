@@ -1,3 +1,7 @@
 .__image {
     background-image: url("../assets/products-bg.webp");
 }
+
+.__product-nav {
+    border-bottom: 4px solid var(--BG_ACCENT);
+}
