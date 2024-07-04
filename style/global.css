@@ -7,7 +7,8 @@
     --BG_ACCENT: #FF8426;
     --BG_ACCENT_T: rgb(255, 132, 38, 0.6);
 
-    --TEXT_PRIMARY: #FFF;
+    --TEXT_PRIMARY: #333;
+    --TEXT_PRIMARY_DARK: #000;
     --TEXT_PRIMARY_LIGHT: #F2EEE3;
 
     --HEADER_HEIGHT: 60px;
