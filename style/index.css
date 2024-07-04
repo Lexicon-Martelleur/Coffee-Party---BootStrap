@@ -1,4 +1,4 @@
-.__bg-image {
+.__body {
     background-image: url("../assets/index-bg.webp");
 }
 
@@ -22,11 +22,5 @@
         height: auto; 
         margin-left: 1rem; 
         border-radius: 4px; 
-    }
-}
-
-@media (min-width: 1200px) {
-    .__article-section {
-        margin-inline: 20%;
     }
 }

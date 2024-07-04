@@ -1,4 +1,4 @@
-.__image {
+.__body {
     background-image: url("../assets/products-bg.webp");
 }
 
@@ -10,6 +10,7 @@
     flex: 0 0 100%;
     border: 1px solid var(--BG_LIGHT);
     border-radius: 4px;
+    color: var(--TEXT_PRIMARY_DARK);
     background: var(--BG_ACCENT_T);
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }

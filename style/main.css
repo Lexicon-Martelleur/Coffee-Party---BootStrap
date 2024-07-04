@@ -1,4 +1,4 @@
-.__page-container {
+.__body {
     height: 100vh;
     background-position: center;
     background-size: cover;
@@ -10,6 +10,14 @@
 .__header {
     background-color: var(--BG_ACCENT);
     border-bottom: 2px solid var(--BG_LIGHT);
+}
+
+.__main {
+    height: 100%;
+    background-color: var(--BG_LIGHT_T);
+    overflow-y: auto;
+    padding-inline: 1rem;
+    padding-bottom: 100px;
 }
 
 .__footer {
@@ -26,10 +34,12 @@
     height: 300px;
 }
 
-.__main {
-    height: 100%;
-    background-color: var(--BG_LIGHT_T);
-    overflow-y: auto;
-    padding-inline: 1rem;
-    padding-bottom: 100px;
+.__mail-link {
+    color: var(--TEXT_PRIMARY);
+}
+
+@media (min-width: 1200px) {
+    .__base-section {
+        margin-inline: 20%;
+    }
 }
